@@ -70,3 +70,9 @@ theme: chan
 deploy:
   type: git
   repo: https://github.com/petarkolaric/petarkolaric.github.io.git
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
